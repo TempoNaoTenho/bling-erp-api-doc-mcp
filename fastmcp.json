@@ -1,0 +1,12 @@
+{
+  "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/latest.json",
+  "source": {
+    "path": "src/bling_doc_mcp/server.py",
+    "entrypoint": "mcp"
+  },
+  "environment": {
+    "type": "uv",
+    "python": ">=3.14",
+    "project": "."
+  }
+}

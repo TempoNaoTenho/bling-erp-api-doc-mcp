@@ -1,0 +1,46 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Compilados
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build / distribuição
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Cache de ferramentas
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Documentação interna de desenvolvimento (notas de refatoração, etc.)
+OPTIMIZATION_SUMMARY.md
+MARKDOWN_NAVIGATION_TOOLS.md
+NEW_FEATURES_SUMMARY.md
+REFACTORING_SUMMARY.md
+TOOLS_REFERENCE.md
+PROMPTS_DOCUMENTATION.md
